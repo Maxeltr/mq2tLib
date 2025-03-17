@@ -29,5 +29,5 @@ package ru.maxeltr.mq2tLib;
  */
 public interface Mq2tPollableComponent extends Mq2tComponent {
 
-    String getData();
+    String getData(String... args);
 }
